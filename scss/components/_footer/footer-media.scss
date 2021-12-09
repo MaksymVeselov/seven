@@ -1,0 +1,33 @@
+@media (max-width: 768px){
+   .last{
+      .right-footer{
+         p{
+            text-align: center!important;
+         }
+      }
+      .left-footer{
+         text-align: center;
+         .top-text{
+            display: inline-block!important;
+            p{
+               padding: 0;
+            }
+         }
+         .down-text{
+            display: grid;
+            justify-content: center;
+            a{
+               padding-bottom: 15px;
+            }
+            .tell{
+               margin-bottom: 15px;
+            }
+            div{
+               img{
+                  padding: 20px 0;
+               }
+            }
+         }
+      }   
+   }
+}

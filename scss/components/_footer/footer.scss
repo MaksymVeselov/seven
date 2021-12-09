@@ -1,0 +1,58 @@
+.last{
+   background-color: $bg-second;
+   .footer-container{
+      padding: 25px 0;
+      border-top: 2px solid $border-gray;
+      .container-row{
+          justify-content: space-between;
+         .left-footer{
+            align-items: baseline;
+            a{
+               text-decoration: none;
+               font-style: normal;
+               font-weight: bold;
+               @extend %text;
+               color: $text-blue;  
+               &::before{
+                  content: "•";
+                  color: $text-gray;
+                  font-size: 15px;
+                  padding-right: 5px;
+               }
+            }
+            p{
+               font-weight: normal;
+               @extend %second-text;  ;
+               color: $color-f;
+               padding-right: 40px; 
+               margin-bottom: 8px;
+            }
+            .top-text{
+               display: flex;
+               align-items: baseline;
+            }
+            .down-text{
+               align-items: baseline;
+               display: flex;
+               .tell{
+                  @extend %second-text;           
+                  font-weight: bold;
+                  text-align: right;   
+                  color: #46466E;
+                  padding: 0 15px;
+               }
+            }
+         }
+         .right-footer{
+            p{
+               font-family: TT Norms;
+               @extend %second-text;  
+               font-weight: normal;
+               text-align: right;
+               color: $text-gray;
+         }
+      }
+      }
+
+}
+}

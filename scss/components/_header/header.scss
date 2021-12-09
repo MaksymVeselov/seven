@@ -1,0 +1,80 @@
+header{
+   position: absolute;
+   width: 100%;
+   top: 0;
+   max-height: $header-height;
+   z-index: 10;
+   padding-top: $header-top-ofset;
+   .header-container{
+      position: relative;
+      align-items: flex-end! important;
+      .contact{
+         display: flex;
+         position: absolute;
+         right: 19px;
+         top: 0px;
+         align-items: center;
+          .lang-svich{
+             margin-right: 15px;
+            label{
+               span{
+                  font-weight: bold;
+                  font-size: 12px;
+                  line-height: 14px;
+                  text-align: center;
+                  letter-spacing: 1px;
+                  color: $text-col;
+                  border-radius: 8px;
+                  width: 29px;
+                  height: 24px;
+                  display:flex;
+                  align-items: center;
+                  justify-content: center;
+               }
+               input[type=radio]{
+                  display: none;
+                  &:checked + span{
+                     background-color:$back-col;
+                  }
+                }
+            }
+          }
+          .address{
+             margin-right: 10px;
+             a{
+               text-decoration: none;
+               font-size: 16px;
+               line-height: 19px;
+               color: $text-col;
+             }
+          }
+          .phone{
+             margin-right: 10px;
+             &::before,
+             &::after{
+                content: "•";
+                color: $text-col;
+                font-size: 15px;
+             }
+            a{
+               font-weight: bold;
+               font-size: 16px;
+               line-height: 19px;
+               color: $text-col;
+               text-decoration: none;
+            }
+          }
+         }
+      .collapse{
+         justify-content: flex-end;
+         .second_a {
+            border-bottom: 2px solid ;
+          }
+         a{
+            font-size: 18px;
+            line-height: 21px;
+            color: $text-col;
+         }
+         }
+      }
+}

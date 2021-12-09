@@ -1,0 +1,53 @@
+.background{
+   padding-top: 80px;
+   .background-row{
+       background-color: $bg-second;
+       border-radius: 10px;
+       h6{
+         font-size: 23px;
+         line-height: 28px;
+         color: $text-shadow;
+         width: 100%;
+      }
+      p{
+         font-size: 18px;
+         line-height: 26px;
+         color: $text-gray;
+         padding-top: 10px;
+      }
+      .back-second{
+         padding-top: 75px;
+         border: 1px solid $border;
+         .second-h{
+            margin-top: -57px;
+            width: 90%;
+         }
+      }
+      .back-text{
+         border: 1px solid $border;
+         padding: 0 ;
+         padding-left: 13px;
+         h6{
+            padding-top: 100px;
+           }
+
+         .text-h{
+            padding-top: 46px;
+            width: 100%;
+            }
+         .text-five{
+
+            h5{
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $back-col;
+            margin: 0;
+            padding: 18px 0px;
+            border-bottom: 1px solid $border;
+            }
+         }
+      }
+   }
+}
